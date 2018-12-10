@@ -12,7 +12,10 @@ EasyBuild is a software build and installation framework
 written in Python that allows you to install software in a structured,
 repeatable and robust way.
 
-This QuantumESPRESSO-6.2-intel-2017b.eb EasyBuild sif file built by 
+This version of Quantum Espresso was compiled using EasyBuild:
+eb --from-pr=6593 QuantumESPRESSO-6.3-intel-2018b.eb --robot
+
+Maintainer: 
 hpc@unr.edu  https://www.unr.edu/research-computing/
 
 %setup
